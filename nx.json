@@ -11,12 +11,14 @@
     "nx.json": "*"
   },
   "projects": {
-    "fakeapp": {
+    "lib1": {
       "tags": []
     },
-    "fakeapp-e2e": {
-      "tags": [],
-      "implicitDependencies": ["fakeapp"]
+    "lib2": {
+      "tags": []
+    },
+    "lib3": {
+      "tags": []
     }
   }
 }
