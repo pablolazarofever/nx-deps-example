@@ -1,0 +1,22 @@
+{
+  "npmScope": "nx-deps",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "fakeapp": {
+      "tags": []
+    },
+    "fakeapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["fakeapp"]
+    }
+  }
+}
