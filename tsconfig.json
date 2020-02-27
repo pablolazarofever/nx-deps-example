@@ -16,9 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-deps/lib1": ["libs/lib1/src/index.ts"],
-      "@nx-deps/lib3": ["libs/lib3/src/index.ts"],
-      "@nx-deps/lib2": ["libs/lib2/src/index.ts"]
+      "@nx-deps/ng-core/lib1": ["libs/lib1/src/index.ts"],
+      "@nx-deps/ng-core/lib3": ["libs/lib3/src/index.ts"],
+      "@nx-deps/ng-core/lib2": ["libs/lib2/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

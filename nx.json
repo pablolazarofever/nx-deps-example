@@ -1,5 +1,5 @@
 {
-  "npmScope": "nx-deps",
+  "npmScope": "nx-deps/ng-core",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {

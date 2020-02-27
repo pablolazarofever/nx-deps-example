@@ -1,5 +1,5 @@
 {
-  "name": "@nx-deps/lib3",
+  "name": "@nx-deps/ng-core/lib3",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
